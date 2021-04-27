@@ -1,0 +1,14 @@
+POST http://balance.local/api/data
+Authorization: 4444asdf
+Content-Type: application/json
+
+{
+        "jsonrpc": "2.0",
+        "id": 1619517362,
+        "method": "userBalance",
+        "params": {
+            "user_id": 10
+
+        }
+}
+###
